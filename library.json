@@ -23,8 +23,8 @@
         "tmc26x.h",
         "tmc5160.h"
     ],
-    "src_dir": "./",
     "build": {
-        "srcFilter": "+<*> -<.git/> -<.svn/> -<example/> -<examples/> -<test/> -<tests/> -<tmc.+hall.*>"
+        "srcFilter": "+<*> -<.git/> -<.svn/> -<example/> -<examples/> -<test/> -<tests/> -<./tmc.+hall.*>",
+        "src_dir": "./"
     }
 }

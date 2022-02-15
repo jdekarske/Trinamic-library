@@ -24,7 +24,7 @@
         "tmc5160.h"
     ],
     "build": {
-        "srcFilter": "+<*> -<.git/> -<.svn/> -<example/> -<examples/> -<test/> -<tests/> -<./tmc.+hall.*>",
+        "srcFilter": "+<*> -<.git/> -<.svn/> -<example/> -<examples/> -<test/> -<tests/> -<tmc????hal.c>",
         "src_dir": "./"
     }
 }

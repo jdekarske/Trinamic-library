@@ -1,0 +1,30 @@
+{
+    "name": "Trinamic-Library",
+    "version": "1.0.0",
+    "description": "Plain C library for Trinamic stepper drivers",
+    "keywords": [
+        "trinamic",
+        "tmc",
+        "stepper",
+        "tmc2130",
+        "tmc2209",
+        "tmc5160",
+        "grbl"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/terjeio/Trinamic-library"
+    },
+    "license": "GPL-3.0-only",
+    "headers": [
+        "tmchal.h",
+        "tmc2130.h",
+        "tmc2209.h",
+        "tmc26x.h",
+        "tmc5160.h"
+    ],
+    "src_dir": "./",
+    "build": {
+        "srcFilter": "+<*> -<.git/> -<.svn/> -<example/> -<examples/> -<test/> -<tests/> -<tmc.+hall.*>"
+    }
+}
